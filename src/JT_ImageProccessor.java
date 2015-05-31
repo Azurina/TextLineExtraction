@@ -82,6 +82,7 @@ public class JT_ImageProccessor {
 		return textArea;
 	}
 
+	//extract text line from an image
 	public static List<Rect> extractTextLine(Mat image) {
 		
 		List<Rect> textLines = new ArrayList<Rect>();
